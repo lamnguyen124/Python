@@ -3,5 +3,7 @@ print("*" * 10)
 students_count = 1000
 rating = 4.99
 is_published = True
-course_name = "Python Programming"
-print(students_count)
+course = "Python Programming"
+print(len(course))
+print(course[0])
+print(course[0:3])
